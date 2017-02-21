@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/mnuitemphongban"
+        android:id="@+id/mnuPhongBan"
+        android:icon="@drawable/department"
+        app:showAsAction="ifRoom|withText" />
+    <item android:title="@string/mnuitemnhanvien"
+        android:id="@+id/mnuNhanVien"
+        android:icon="@drawable/personal_bot"
+        app:showAsAction="ifRoom|withText" />
+    <item android:title="@string/mnuitemhethong"
+        android:id="@+id/mnuHeThong"
+        android:icon="@drawable/system" />
+    <item android:id="@+id/mnuLienHe"
+        android:title="@string/mnuitemlienhe"
+        android:icon="@drawable/about_us"
+        app:showAsAction="ifRoom|withText" />/>
+</menu>

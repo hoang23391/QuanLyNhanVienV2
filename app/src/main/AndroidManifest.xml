@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hoangsv.quanlynhanvienv2">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_newicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DangKyActivity"
+            android:label="Đăng ký" />
+        <activity
+            android:name=".PhongBanActivity"
+            android:label="Danh sách phòng ban" />
+        <activity
+            android:name=".NhanVienActivity"
+            android:label="Danh sách nhân viên" />
+        <activity
+            android:name=".ThemNhanVienActivity"
+            android:label="Thêm nhân viên" />
+        <activity
+            android:name=".SuaNhanVienActivity"
+            android:label="Sửa thông tin nhân viên" />
+        <activity
+            android:name=".ChiTietNhanVienActivity"
+            android:label="Chi tiết nhân viên" />
+        <activity
+            android:name=".NhanVienPhongBanActivity"
+            android:label="Nhân viên phòng ban" />
+        <activity
+            android:name=".ThayDoiMatKhauActivity"
+            android:label="Hệ thống"></activity>
+    </application>
+
+</manifest>
